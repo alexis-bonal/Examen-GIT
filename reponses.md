@@ -45,34 +45,26 @@ Quelle ligne de commande devez-vous taper ?
 
 ## 7) Je suis sur ma Branch1 et je viens d’ajouter un fichier "File2.txt". Je change d’avis : je veux finalement ajouter mon fichier à une nouvelle branche, "BranchFile". Que dois-je faire ?
 
-- [ ] 
-
-```bash
-git status
+- [ ] git status
 git branch BranchFile
 git checkout BranchFile
 git status apply
-```
 
-- [ ] 
+___
 
-```bash
-git status
+- [ ] git status
 git stash
 git branch BranchFile
 git checkout BranchFile
 git status apply
-```
 
-- [x] 
+___
 
-```bash
-git status
+- [x] git status
 git stash
 git branch BranchFile
 git checkout BranchFile
 git stash apply
-```
 
 ## 8) ```git commit --amend -m "Test"``` Cette commande permet de
 
